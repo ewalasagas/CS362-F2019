@@ -26,7 +26,7 @@ runalltests: all
 	./randomtestcard1
 	./randomtestcard2
 	./randomtestcard3
-	gcov -f -b dominion.c >> unittestresults.out
+	gcov -f -b dominion.c >> randomtestresults.out
 
 clean:
 	rm -f *.o randomtestcard1 randomtestcard1.exe randomtestcard2 randomtestcard2.exe randomtestcard3 randomtestcard3.exe*.gcov *.gcda *.gcno *.so *.out
