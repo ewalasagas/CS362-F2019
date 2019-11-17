@@ -71,18 +71,6 @@ printf("Baron_refactor function test with 2 players only:\n");
     }
     printf("\n");
 
-
-//RANDOM TEST FOR INPUTS/PARAMETERS OF BARON - CURRENTPLAYER
-// POSITIVE TEST
-printf("\nRandom test of current-player input with choice1 as 0\n");
-    for(i = 0; i < n; i++)
-    {
-        int rand_num_pos = random_MAXNEG_MAXPOS();
-        printf("Test input input p: %d\n", rand_num_pos);
-        baron_ref(&G, 0, rand_num_pos);  
-    }
-    printf("\n");
-
 //RANDOM TEST FOR INPUTS/PARAMETERS OF BARON - CURRENTPLAYER
 // POSITIVE TEST
 printf("\nRandom test of current-player input with choice1 as 1\n");
@@ -114,18 +102,6 @@ int players = 4;
     printf("\n");
 
 //RANDOM TEST FOR INPUTS/PARAMETERS OF BARON - CURRENTPLAYER
-// POSITIVE TEST
-printf("\nRandom test of current-player input with choice1 as 0\n");
-    for(i = 0; i < n; i++)
-    {
-        int rand_num_pos = random_MAXNEG_MAXPOS();
-        printf("Test input input p: %d\n", rand_num_pos);
-        baron_ref(&G, 0, rand_num_pos);  
-    }
-    printf("\n");
-
-//RANDOM TEST FOR INPUTS/PARAMETERS OF BARON - CURRENTPLAYER
-// POSITIVE TEST
 printf("\nRandom test of current-player input with choice1 as 1\n");
     for(i = 0; i < n; i++)
     {
